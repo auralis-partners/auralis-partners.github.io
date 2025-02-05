@@ -1,5 +1,5 @@
 ---
-title: Careers
 layout: default
+title: Careers
 permalink: /careers/
 ---

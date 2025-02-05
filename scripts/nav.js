@@ -86,6 +86,10 @@ for (let link of navLinks.children) {
     });
 
     link.addEventListener('click', () => {
-        window.location.href = `/${link.getAttribute('nav')}`;
+        // get base url
+        let url = window.location.origin;
+        console.log(window.location)
+
+        window.location.href = `${url}${link.getAttribute('nav')}`;
     });
 }

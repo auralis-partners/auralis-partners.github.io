@@ -1,0 +1,6 @@
+#content-container {
+    top: 10vh;
+    position: absolute;
+    min-height: 90vh;
+    width: 100vw;
+}

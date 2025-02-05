@@ -1,5 +1,5 @@
 ---
-title: Insights
 layout: default
+title: Insights
 permalink: /insights/
 ---
