@@ -4,22 +4,46 @@ const navMenu = document.getElementById('header-nav-menu');
 const navDialog = document.getElementById('header-nav-dialog');
 const navDialogMenu = document.getElementById('header-nav-dialog-menu');
 
+const body = document.querySelector('body');
+
 const nav = document.getElementById('header-nav-open');
 const navClose = document.getElementById('header-nav-close-container');
+
+function scrollTo(offset, callback) {
+    const fixedOffset = offset.toFixed();
+    const onScroll = function () {
+        if (window.scrollY.toFixed() === fixedOffset) {
+            window.removeEventListener('scroll', onScroll)
+            callback()
+        }
+    }
+
+    window.addEventListener('scroll', onScroll)
+    onScroll()
+    window.scrollTo({
+        top: offset,
+        behavior: 'smooth'
+    })
+}
 
 nav.addEventListener('click', () => {
     navMenu.classList.toggle('open');
     navDialogMenu.classList.toggle('open');
     navDialog.classList.add('open');
+
+    scrollTo(0, () => {
+        body.style.overflow = 'hidden';
+    });
 });
 
 navClose.addEventListener('click', () => {
     navDialogMenu.classList.toggle('open');
     navDialog.classList.remove('open');
+    body.style.overflow = 'auto';
 
     setTimeout(() => {
         navMenu.classList.toggle('open');
-    }, 250);
+    }, 200);
 });
 
 const navLogo = document.getElementById('header-nav-logo');

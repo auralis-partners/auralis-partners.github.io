@@ -1,0 +1,24 @@
+#footer {
+    margin-top: 5vh;
+    background-color: rgb(2 3 20 / var(--tw-bg-opacity, 1));
+    min-height: 15vh;
+    text-align: center;
+}
+
+#footer-content {
+    width: 70vw;
+    margin: 0 auto;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+#footer-content > h3 {
+    color: #f0f0f0;
+    font-size: 1.5rem;
+    margin-left: 5vw;
+    margin-top: 2vh;
+}
+
+#footer-content > p {
+    color: #f0f0f097;
+}

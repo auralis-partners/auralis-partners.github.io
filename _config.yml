@@ -27,6 +27,44 @@ content:
     - id: careers
       name: Careers
       link: /careers/
+  
+  logos:
+    - src: /assets/logos/uniper_logo.png
+      name: Uniper
+    - src: /assets/logos/atlas_elektronik.png 
+      name: Atlas Elektronik
+    - src: /assets/logos/axiros_logo.png 
+      name: Axiros
+    - src: /assets/logos/bg_phoenics_logo.jpeg
+      name: BG Phoenics
+    - src: /assets/logos/bilfinger_logo.jpeg 
+      name: Bilfinger
+    - src: /assets/logos/btv.png 
+      name: BTV
+    - src: /assets/logos/bundesagentur_fuer_arbeit_logo.png
+      name: Bundesagentur für Arbeit 
+    - src: /assets/logos/cariad_logo.png 
+      name: Cariad
+    - src: /assets/logos/Deutsche_Bahn.png 
+      name: Deutsche Bahn
+    - src: /assets/logos/fratch_logo.png 
+      name: Fratch
+    - src: /assets/logos/hitachi_logo.svg
+      name: Hitachi
+    - src: /assets/logos/jysk_logo.jpg
+      name: Jysk
+    - src: /assets/logos/koerber_logo.png 
+      name: Körber
+    - src: /assets/logos/miele_logo.png
+      name: Miele
+    - src: /assets/logos/nunatak.png 
+      name: Nunatak
+    - src: /assets/logos/rheinmetall_logo.png 
+      name: Rheinmetall
+    - src: /assets/logos/swarco_logo.png 
+      name: Swarco
+    - src: /assets/logos/Thales_Logo.svg
+      name: Thales
 
 theme: minima
 plugins:

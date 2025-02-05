@@ -10,6 +10,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 # Trusted by the best
 
+{% include logos.html %}
+
 # Building ventures par excellence
 
 > We are an Innovation / Venture Studio focusing on Rapid MVP Development

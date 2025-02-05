@@ -1,6 +1,6 @@
 .carousel-cell {
     width: 12.5vw;
-    aspect-ratio: 152/80;
+    aspect-ratio: 152/50;
     margin-right: 10px;
     counter-increment: carousel-cell;
     object-fit: scale-down;
@@ -20,7 +20,30 @@
     color: white;
 }
 
-hr {
-    margin-top: 3vh;
+#logos-carousel>hr {
+    margin-top: 2vh;
     color: transparent;
+}
+
+@media (max-width:961px) {
+    .carousel-cell {
+        width: 20vw;
+        aspect-ratio: 152/80;
+        border-radius: 10px;
+    }
+
+    #logos-carousel>hr {
+        margin-top: 2vh;
+    }
+}
+
+@media (min-width:961px) and (max-width: 1000px) {
+    .carousel-cell {
+        width: 15vw;
+        aspect-ratio: 152/80;
+    }
+
+    #logos-carousel>hr {
+        margin-top: 2vh;
+    }
 }

@@ -55,20 +55,10 @@ blockquote {
     font-size: var(--content-p-font-size);
 }
 
-@media screen and (max-width: 1200px) {
-    :root {
-        --content-h1-font-size: 4rem;
-        --content-h2-font-size: 3rem;
-        --content-h3-font-size: 2.5rem;
-        --content-p-font-size: 2rem;
-    }
+@media (min-width:641px) and (max-width:961px) { 
 
-    @media not all and (hover: none) {
-        :root {
-            --content-h1-font-size: 2.5rem;
-            --content-h2-font-size: 2rem;
-            --content-h3-font-size: 1.5rem;
-            --content-p-font-size: 1rem;
-        }
-    }
+}
+
+@media (min-width:961px) and (max-width: 1000px)  {
+
 }

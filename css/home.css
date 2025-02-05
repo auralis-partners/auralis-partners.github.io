@@ -75,9 +75,13 @@
     box-shadow: #262626 0px 5px 15px;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width:961px) {
+    .hero-caption {
+        white-space: nowrap;
+    }
+
     :root {
-        --home-hero-font-size: 4rem;
+        --home-hero-font-size: 2rem;
     }
 
     #hero-innovators {
@@ -85,28 +89,38 @@
     }
 
     #hero-container {
-        top: 35vh;
+        top: 22.5vh;
         margin-left: 15vw;
         width: 70vw;
     }
 
     #hero-techies::after {
-        height: 80px;
-        width: 7px;
+        height: 45px;
+        width: 4px;
+    }
+}
+
+@media (min-width:961px) and (max-width: 1000px)  {
+    .hero-caption {
+        white-space: nowrap;
     }
 
-    @media not all and (hover: none) {
-        #hero-container {
-            top: 30vh;
-        }
+    :root {
+        --home-hero-font-size: 2rem;
+    }
 
-        :root {
-            --home-hero-font-size: 2rem;
-        }
+    #hero-innovators {
+        text-shadow: #96C5F7 4px 4px;
+    }
 
-        #hero-techies::after {
-            height: 50px;
-            width: 5px;
-        }
+    #hero-container {
+        top: 30vh;
+        margin-left: 15vw;
+        width: 70vw;
+    }
+
+    #hero-techies::after {
+        height: 45px;
+        width: 4px;
     }
 }

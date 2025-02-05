@@ -22,8 +22,6 @@ function splitToNChunks(array, n) {
     return result;
 }
 
-return;
-
 let logos = JSON.parse(document.getElementById('logos').innerText);
 /*
     {% for logo in site.content.logos %}
@@ -31,8 +29,7 @@ let logos = JSON.parse(document.getElementById('logos').innerText);
     {% endfor %}
 */
 shuffle(logos);
-logos = splitToNChunks(logos, 2);
-console.log(logos);
+logos = splitToNChunks(logos, 3);
 
 const carousel = document.getElementById('logos-carousel');
 
@@ -49,10 +46,11 @@ logos.forEach((chunk, i) => {
 
     carousel.appendChild(el);
 
-    let flkty = new Flickity(el, {
+    new Flickity(el, {
         cellAlign: 'center',
         contain: true,
-        autoPlay: true,
+        autoPlay: 1500,
+        pauseAutoPlayOnHover: false,
         pageDots: false,
         wrapAround: true,
         prevNextButtons: false,

@@ -43,25 +43,36 @@
     aspect-ratio: 1/1;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width:961px) { 
     #header-title {
         display: none;
     }
 
     #header-logo {
         position: absolute;
-        top: 5vh;
-        width: 15vw;
+        top: 4.5vh;
+        width: 12vw;
         aspect-ratio: 1/1;
     }
 
     #header-nav-menu-text {
         display: none;
     }
+}
 
-    @media not all and (hover: none) {
-        #header-logo {
-            width: 7.5vw;
-        }
+@media (min-width:961px) and (max-width: 1000px)  {
+    #header-title {
+        display: none;
+    }
+
+    #header-logo {
+        position: absolute;
+        top: 4.5vh;
+        width: 8vw;
+        aspect-ratio: 1/1;
+    }
+
+    #header-nav-menu-text {
+        display: none;
     }
 }
