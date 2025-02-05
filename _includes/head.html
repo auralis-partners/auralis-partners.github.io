@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+
+{% if page.title == "Home" %}
+    <title>{{ site.title }}</title>
+{% else %}
+    <title>{{ page.title }}</title>
+{% endif %}
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ page.description }}">
+
+<link rel="stylesheet" href="/css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/header.css">
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/content.css">
+
+<link rel="icon" href="/assets/auralis_partners_final.ico">
+
+<script type="importmap">
+{
+    "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.173.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.173.0/examples/jsm/",
+    "rough-notation": "https://unpkg.com/rough-notation?module"
+    }
+}
+</script>
+
+<script src="/scripts/nav.js" type="module"></script>

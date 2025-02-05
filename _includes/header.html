@@ -1,0 +1,46 @@
+<div id="header">
+    {% for nav in site.content.nav %}
+        {% if page.permalink == nav.link %}
+            {% assign current = nav.id %}
+        {% endif %}
+    {% endfor %}
+
+    <div id="header-nav-logo">
+        <img src="/assets/auralis_partners_final.png" alt="Auralis Partners Logo" id="header-logo">
+        <h1 id="header-title">Auralis Partners</h1>
+    </div>
+    <div>
+        <div id="header-nav-open" class="header-nav">
+            <h1 id="header-nav-menu-text">Menu</h1>
+            <div class="header-nav-menu" id="header-nav-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <div id="header-nav-dialog">
+            <div id="header-nav-close-container">
+                <div id="header-nav-close" class="header-nav">
+                    <h1 id="header-nav-menu-text">Close</h1>
+                    <div class="header-nav-menu" id="header-nav-dialog-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="header-nav-links">
+                <data id="nav-current">
+                    {{ current }}
+                </data>
+                {% for nav in site.content.nav %}
+                    <h1 id="nav-menu-{{ nav.id }}" nav="{{ nav.link }}">{{ nav.name }}</h1>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

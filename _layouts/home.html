@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+
+    <script type="module" src="scripts/home/util.js"></script>
+    <script type="module" src="scripts/home/main.js"></script>
+
+    <link rel="stylesheet" href="/css/home.css">
+  </head>
+  <body>
+    {% include header.html %}
+
+    <div id="hero-container">
+      <div id="hero">
+        <span id="hero-techies">
+          <h2 class="hero-caption">We are <span id="hero-techies-text">techies.</span></h2>
+        </span>
+        <h2 class="hero-caption">We are <span id="hero-innovators">innovators.</span></h2>
+        <h2 class="hero-caption">We are <span id="hero-creatives">creatives.</span></h2>
+        <h1 class="hero-caption">We are <span id="hero-auralis">Auralis.</span></h1>
+      </div>
+    </div>
+
+    <canvas id="wireframe"></canvas>
+
+    <div id="content-container">
+      {% include content.html %}
+    </div>
+  </body>
+</html>

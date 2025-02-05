@@ -1,0 +1,112 @@
+:root {
+    --home-hero-font-size: 1.5rem;
+}
+
+/* Hero */
+#hero-container {
+    top: 27.5vh;
+    position: absolute;
+    margin: 0;
+    margin-left: 25vw;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    margin: 0 auto;
+    cursor: default;
+}
+
+#hero-techies {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+#hero-techies>h2 {
+    margin-bottom: 0;
+}
+
+#hero-innovators {
+    text-shadow: #96C5F7 2px 2px;
+}
+
+.hero-caption {
+    margin-bottom: 0;
+    font-size: var(--home-hero-font-size);
+}
+
+#hero-auralis {
+    background-image: url(/assets/auralis_partners_final_wave.png);
+    background-clip: text;
+    color: transparent;
+    background-size: cover;
+}
+
+#hero-techies::after {
+    content: "";
+    width: 5px;
+    height: 30px;
+    background: #086788;
+    display: inline-block;
+    margin-bottom: 3px;
+    align-self: flex-end;
+    animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+@keyframes cursor-blink {
+    0% {
+        opacity: 0;
+    }
+}
+
+/* Wireframe */
+#wireframe {
+    position: absolute;
+    z-index: -1;
+}
+
+#content-container {
+    position: absolute;
+    top: 100vh;
+    width: 100vw;
+    background-color: #f0f0f0;
+    box-shadow: #262626 0px 5px 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    :root {
+        --home-hero-font-size: 4rem;
+    }
+
+    #hero-innovators {
+        text-shadow: #96C5F7 4px 4px;
+    }
+
+    #hero-container {
+        top: 35vh;
+        margin-left: 15vw;
+        width: 70vw;
+    }
+
+    #hero-techies::after {
+        height: 80px;
+        width: 7px;
+    }
+
+    @media not all and (hover: none) {
+        #hero-container {
+            top: 30vh;
+        }
+
+        :root {
+            --home-hero-font-size: 2rem;
+        }
+
+        #hero-techies::after {
+            height: 50px;
+            width: 5px;
+        }
+    }
+}
