@@ -1,0 +1,26 @@
+.carousel-cell {
+    width: 12.5vw;
+    aspect-ratio: 152/80;
+    margin-right: 10px;
+    counter-increment: carousel-cell;
+    object-fit: scale-down;
+    padding: 1vw;
+    background-color: white;
+    border: 2px solid #26262665;
+    border-radius: 20px;
+}
+
+/* cell number */
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+hr {
+    margin-top: 3vh;
+    color: transparent;
+}
