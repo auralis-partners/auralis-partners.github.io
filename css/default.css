@@ -1,6 +1,51 @@
+:root {
+    --content-header-font-size: 3.25rem;
+}
+
 #content-container {
     top: 10vh;
     position: absolute;
     min-height: 90vh;
     width: 100vw;
+}
+
+#content-header {
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 2.25rem;
+}
+
+#content-header>h1 {
+    font-size: var(--content-header-font-size);
+    margin-top: 2vh;
+    width: min-content;
+    white-space: nowrap;
+}
+
+@media (max-width:961px) {
+    #content-header {
+        margin-top: unset;
+    }
+
+    #content-header>h1 {
+        white-space: unset;
+    }
+
+    #content-container {
+        top: calc((5vh + 10vw) * 1.5);
+    }
+}
+
+@media (min-width:961px) and (max-width: 1025px)  {
+    #content-header {
+        margin-top: unset;
+    }
+
+    #content-header>h1 {
+        white-space: unset;
+    }
+    
+    #content-container {
+        top: calc((7vh + 4vw) * 1.5);
+    }
 }

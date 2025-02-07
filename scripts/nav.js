@@ -52,7 +52,12 @@ navLogo.addEventListener('click', () => {
 });
 
 const current = document.getElementById('nav-current').innerText.replace('\n', '').trim();
-const curentId = `nav-menu-${current}`;
+let curentId = `nav-menu-${current}`;
+
+if (!document.getElementById(curentId)) {
+    curentId = 'nav-menu-home';
+}
+
 document.getElementById(curentId).style.display = 'none';
 
 let navLinks = document.getElementById('header-nav-links');

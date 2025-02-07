@@ -100,7 +100,7 @@
     }
 }
 
-@media (min-width:961px) and (max-width: 1000px)  {
+@media (min-width:961px) and (max-width: 1025px)  {
     .hero-caption {
         white-space: nowrap;
     }

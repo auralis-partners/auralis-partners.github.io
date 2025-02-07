@@ -154,7 +154,7 @@
     }
 }
 
-@media (min-width:961px) and (max-width: 1000px)  {
+@media (min-width:961px) and (max-width: 1025px)  {
     :root {
         --header-title-font-size: 4rem;
     }

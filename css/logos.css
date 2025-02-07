@@ -37,7 +37,7 @@
     }
 }
 
-@media (min-width:961px) and (max-width: 1000px) {
+@media (min-width:961px) and (max-width: 1025px) {
     .carousel-cell {
         width: 15vw;
         aspect-ratio: 152/80;

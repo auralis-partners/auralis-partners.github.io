@@ -10,10 +10,22 @@
     width: 60vw;
     margin: 0 auto;
     margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 #content>h1 {
     font-size: var(--content-h1-font-size);
+}
+
+#content>hr {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 5px;
+    height: 5px;
+    background-image: url(/assets/auralis_partners_final_wave.png);
+    background-clip: border-box;
+    border: none;
+    box-shadow: 0 0 1px 1px #26262618;
 }
 
 #content>h1::before {
@@ -53,12 +65,4 @@ blockquote {
 
 #content>p {
     font-size: var(--content-p-font-size);
-}
-
-@media (min-width:641px) and (max-width:961px) { 
-
-}
-
-@media (min-width:961px) and (max-width: 1000px)  {
-
 }
