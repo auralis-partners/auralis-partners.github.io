@@ -46,7 +46,7 @@ logos.forEach((chunk, i) => {
 
     carousel.appendChild(el);
 
-    new Flickity(el, {
+    const fl = new Flickity(el, {
         cellAlign: 'center',
         contain: true,
         autoPlay: 1500,
@@ -56,6 +56,9 @@ logos.forEach((chunk, i) => {
         prevNextButtons: false,
         initialIndex: 4,
         rightToLeft: i % 2 === 0
+    });
+    window.addEventListener('resize', () => {
+        fl.resize();
     });
 
     let hr = document.createElement('hr');

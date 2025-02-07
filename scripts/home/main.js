@@ -37,7 +37,9 @@ scene.add(mesh);
 scene.background = new THREE.Color(0xf0f0f0);
 render(scene, camera, renderer);
 
-window.addEventListener('resize', () => onWindowResize(camera, renderer));
+window.addEventListener('resize', () => {
+    onWindowResize(camera, renderer)
+});
 
 function rotate() {
     //get scroll position

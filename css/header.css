@@ -18,6 +18,11 @@
 #header-title {
     font-size: var(--header-title-font-size);
     cursor: pointer;
+    transition: text-shadow 0.2s ease-in-out;
+}
+
+#header-title:hover {
+    text-shadow: #96C5F7 3px 3px;
 }
 
 .header-nav {
