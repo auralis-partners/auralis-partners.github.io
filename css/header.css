@@ -46,7 +46,12 @@
 #header-logo {
     width: 3.5vw;
     aspect-ratio: 1/1;
+    transition: transform 1.5s cubic-bezier(.17,.67,.83,.67);
 }
+
+/*#header-logo:hover {
+    transform: rotate3d(0, 1, 0, calc(360deg * 3.5));
+}*/
 
 @media (max-width:961px) { 
     #header-title {

@@ -21,4 +21,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * Matching of startups and corporates
 * Focussing on Generative AI and B2B SaaS
 
-Auralis Partners has more than 1 million EUR in active assets under management that invests early in founders building fast-growing technology companies. We focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth. 
+Auralis Group has more than 1 million EUR in active assets under management that invests early in founders building fast-growing technology companies. We focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth. 
