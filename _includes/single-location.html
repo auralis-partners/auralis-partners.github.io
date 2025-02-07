@@ -2,19 +2,21 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <div id="map" style="height: 40vh; z-index: 0;"></div>
 
-<data id="cities">
-    {{ site.content.cities | jsonify }}
+<data id="location-lat">
+    {{ include.lat }}
+</data>
+
+<data id="location-lon">
+    {{ include.lon }}
 </data>
 
 <script>
-    let map = L.map('map').setView([51.5, 9.1747996], 5);
+    let mapImprint = L.map('map').setView([51.5, 9.1747996], 5);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    }).addTo(map);
+    }).addTo(mapImprint);
 
-    let locations = JSON.parse(document.getElementById('cities').innerText);
-    locations.forEach(function(location) {
-        L.marker([location.lat, location.lon]).addTo(map);
-    });
+    let locationImprint = [parseFloat(document.getElementById('location-lat').innerText), parseFloat(document.getElementById('location-lon').innerText)];
+    L.marker(locationImprint).addTo(mapImprint);
 </script>
