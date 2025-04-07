@@ -29,7 +29,6 @@ We're a remote-native team with people in 9+ cities. That means:
 
 - 30 vacation days per year 🏝️  
 - Competitive salary & bonus structure 💸  
-- Yearly education & conference budget 📚  
 - High-end laptop or workstation of your choice 💻  
 - Work with kind, smart, and fun people 🎉  
 - No micromanagement, lots of autonomy  
