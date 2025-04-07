@@ -11,21 +11,21 @@ content:
     - id: home
       name: Home
       link: /
-    - id: about
-      name: About Us
-      link: /about-us/
     - id: services
       name: Services
       link: /services/
+    - id: about
+      name: About Us
+      link: /about-us/
 #    - id: success-stories
 #      name: Success Stories
 #      link: /success-stories/
 #    - id: insights
 #      name: Insights
 #      link: /insights/
-#    - id: careers
-#      name: Careers
-#      link: /careers/
+    - id: careers
+      name: Careers
+      link: /careers/
   
   logos:
     - src: /assets/logos/uniper_logo.png

@@ -1,68 +1,69 @@
 :root {
-    --content-h1-font-size: 2rem;
-    --content-h2-font-size: 1.5rem;
-    --content-h3-font-size: 1.25rem;
-    --content-p-font-size: 1rem;
+  --content-h1-font-size: 2rem;
+  --content-h2-font-size: 1.5rem;
+  --content-h3-font-size: 1.25rem;
+  --content-p-font-size: 1rem;
 }
 
 #content {
-    position: relative;
-    width: 60vw;
-    margin: 0 auto;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+  position: relative;
+  width: 60vw;
+  margin: 0 auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
-#content>h1 {
-    font-size: var(--content-h1-font-size);
+#content > h1 {
+  font-size: var(--content-h1-font-size);
 }
 
-#content>hr {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    border-radius: 5px;
-    height: 5px;
-    background-image: url(/assets/auralis_partners_final_wave.png);
-    background-clip: border-box;
-    border: none;
-    box-shadow: 0 0 1px 1px #26262618;
+#content > hr {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  border-radius: 5px;
+  height: 2px;
+  /*background-image: url(/assets/auralis_partners_final_wave.png);
+    background-clip: border-box;*/
+  background-color: #086788;
+  border: none;
+  box-shadow: 0 0 1px 1px #26262618;
 }
 
-#content>h1::before {
-    content: "# ";
-    color: #26262690;
-    font-style: italic;
+#content > h1::before {
+  content: "# ";
+  color: #26262690;
+  font-style: italic;
 }
 
 blockquote {
-    margin: 0 auto;
-    font-size: var(--content-h3-font-size);
+  margin: 0 auto;
+  font-size: var(--content-h3-font-size);
 }
 
-#content>h2 {
-    font-size: var(--content-h2-font-size);
+#content > h2 {
+  font-size: var(--content-h2-font-size);
 }
 
-#content>h2::before {
-    content: "## ";
-    color: #26262690;
-    font-style: italic;
+#content > h2::before {
+  content: "## ";
+  color: #26262690;
+  font-style: italic;
 }
 
-#content>h3 {
-    font-size: var(--content-h3-font-size);
+#content > h3 {
+  font-size: var(--content-h3-font-size);
 }
 
-#content>h3::before {
-    content: "### ";
-    color: #26262690;
-    font-style: italic;
+#content > h3::before {
+  content: "### ";
+  color: #26262690;
+  font-style: italic;
 }
 
-#content>ul {
-    font-size: var(--content-p-font-size);
+#content > ul {
+  font-size: var(--content-p-font-size);
 }
 
-#content>p {
-    font-size: var(--content-p-font-size);
+#content > p {
+  font-size: var(--content-p-font-size);
 }
