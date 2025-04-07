@@ -4,21 +4,25 @@ layout: home
 permalink: /
 ---
 
-# Mission statement
+## 🚀 Mission-Driven Innovation
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+At Auralis Partners, we believe that building the future means acting fast, thinking bold, and backing great ideas with the right support. We're here to turn ambitious visions into real, working products—and to help both startups and corporates move at startup speed.
 
-# Trusted by the best
+## 🤝 Trusted by the Best
 
 {% include logos.html %}
 
-# Building ventures par excellence
+## 💡 Building Ventures Par Excellence
 
-> We are an Innovation / Venture Studio focusing on Rapid MVP Development
+We are an Innovation & Venture Studio specializing in **rapid MVP development** and **early-stage company building**.
 
-* Supporting corporate clients in innovation / business modeling
-* Helping technical and non-technical founders getting from 0-1
-* Matching of startups and corporates
-* Focussing on Generative AI and B2B SaaS
+We work with:
 
-Auralis Group has more than 1 million EUR in active assets under management that invests early in founders building fast-growing technology companies. We focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth. 
+- **Corporate clients** looking to explore new markets or develop innovative business models  
+- **Founders** (technical or not) who want to go from **idea to product (0→1)** fast  
+- **Startups & corporates**, matching the right solutions to the right problems  
+- Teams focused on **Generative AI** and **B2B SaaS**, where we bring deep expertise and conviction
+
+## 💸 More Than Capital
+
+Auralis Group actively manages over **€1M in assets**, investing early in high-potential tech startups. We focus on opportunities where **technology, innovation, and capital** come together to unlock long-term value and drive meaningful growth.

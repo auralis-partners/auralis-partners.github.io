@@ -17,15 +17,15 @@ content:
     - id: services
       name: Services
       link: /services/
-    - id: success-stories
-      name: Success Stories
-      link: /success-stories/
-    - id: insights
-      name: Insights
-      link: /insights/
-    - id: careers
-      name: Careers
-      link: /careers/
+#    - id: success-stories
+#      name: Success Stories
+#      link: /success-stories/
+#    - id: insights
+#      name: Insights
+#      link: /insights/
+#    - id: careers
+#      name: Careers
+#      link: /careers/
   
   logos:
     - src: /assets/logos/uniper_logo.png
