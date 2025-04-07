@@ -1,0 +1,36 @@
+<div class="profile-container">
+  <img src="{{ include.image }}" alt="{{ include.alt }}" class="profile-picture" />
+  <div class="profile-right">
+    <p class="description">{{ include.description }}</p>
+
+    <div class="profile-links">
+      {% if include.email %}
+        <a href="mailto:{{ include.email }}" class="email">
+          <iconify-icon icon="fontisto:email"></iconify-icon>
+          <p>E-Mail</p>
+        </a>
+      {% endif %}
+  
+      {% if include.linkedin %}
+        <a href="{{ include.linkedin }}" class="linkedin" target="_blank">
+          <iconify-icon icon="logos:linkedin-icon"></iconify-icon>
+          <p>LinkedIn</p>
+        </a>
+      {% endif %}
+  
+      {% if include.github %}
+        <a href="{{ include.github }}" class="github" target="_blank">
+          <iconify-icon icon="logos:github-icon"></iconify-icon>
+          <p>GitHub</p>
+        </a>
+      {% endif %}
+  
+      {% if include.website %}
+        <a href="{{ include.website }}" class="website" target="_blank">
+          <iconify-icon icon="proicons:home"></iconify-icon>
+          <p>Website</p>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>

@@ -1,17 +1,61 @@
 body {
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
 
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 * {
-    font-family: 'Space Grotesk', serif;
-    color: #262626;
+  font-family: "Space Grotesk", serif;
+  color: #262626;
 }
 
 data {
-    display: none;
+  display: none;
+}
+
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  align-items: center;
+  mask-image: linear-gradient(black, transparent);
+  max-height: 140px;
+  overflow: hidden;
+}
+
+.profile-picture {
+  width: max(10vw, 100px);
+  height: max(10vw, 100px);
+  border-radius: 50%;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.profile-right > p {
+  margin-top: 0;
+}
+
+.profile-links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.profile-links > a {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.profile-links > a > p {
+  margin: 0;
 }
