@@ -1,12 +1,10 @@
 ---
 layout: default
-title: Careers
+title: 💼 Careers at Auralis
 permalink: /careers/
 ---
 
-# 💼Careers at Auralis 
-
-## Work with us. Build the future.
+# Work with us. Build the future.
 
 At Auralis, we work on exciting challenges across industries—from 0→1 product builds to scaling engineering teams and launching new ventures. We’re builders at heart, and we’re always looking for curious, driven people to join us.
 
@@ -14,7 +12,7 @@ Whether you're a software engineer, designer, product manager, or strategist, we
 
 ---
 
-## 🌍 Fully Remote, Always
+# 🌍 Fully Remote, Always
 
 We're a remote-native team with people in 9+ cities. That means:
 
@@ -27,7 +25,7 @@ We're a remote-native team with people in 9+ cities. That means:
 
 ---
 
-## ❤️ Why You'll Love Working Here
+# ❤️ Why You'll Love Working Here
 
 - 30 vacation days per year 🏝️  
 - Competitive salary & bonus structure 💸  
@@ -39,7 +37,7 @@ We're a remote-native team with people in 9+ cities. That means:
 
 ---
 
-## 📌 Current Openings
+# 📌 Current Openings
 
 We're always hiring for the right people. But here are some roles we're actively looking to fill:
 
@@ -53,7 +51,7 @@ We're always hiring for the right people. But here are some roles we're actively
 
 ---
 
-## ✉️ How to Apply
+# ✉️ How to Apply
 
 Drop us a short email at [jobs@auralispartners.com](mailto:jobs@auralispartners.com) with:
 
@@ -66,7 +64,7 @@ We’ll get back to you quickly.
 
 ---
 
-## 🌈 Everyone Belongs
+# 🌈 Everyone Belongs
 
 At Auralis, we believe that great ideas come from diverse perspectives. We welcome applicants of all backgrounds, identities, and experiences. We’re committed to creating an inclusive, respectful, and supportive workplace where everyone can do their best work—just as they are.
 
@@ -77,6 +75,6 @@ Want to know more about how we approach diversity and inclusion?
 
 ---
 
-## 👋 Join us
+# 👋 Join us
 
 We’re building a company we love working at. If that sounds like something you’d like to be a part of, we can’t wait to meet you.
