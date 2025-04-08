@@ -44,7 +44,9 @@ We're always hiring for the right people. But here are some roles we're actively
 - **Backend Engineer (Spring Boot)**
 - **Backend Engineer (Go)**
 - **Embedded Engineer (C/C++)**
-- **AI/ML Engineer (Generative AI, RAG, LangChain)**  
+- **AI/ML Engineer (Generative AI, RAG, LangChain)** 
+
+We’re based in the **EU** (primarily Germany) and require both a valid **EU work permit** and **C1-level German** for all roles, as we’re currently **not able to sponsor visas**.
 
 *Don’t see the right role? Reach out anyway—we’d still love to hear from you.*
 
