@@ -23,6 +23,9 @@ content:
 #    - id: insights
 #      name: Insights
 #      link: /insights/
+    #- id: team
+    #  name: Meet the Team
+    #  link: /team/
     - id: careers
       name: Careers
       link: /careers/

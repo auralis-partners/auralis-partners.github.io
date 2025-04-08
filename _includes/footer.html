@@ -7,6 +7,78 @@
             <a href="/imprint">Imprint</a>
             <a href="/privacy-policy">Privacy Policy</a>
         </div>   
-        <p>Built with ❤️ without 🍪</p>
+        <p id="footer-line">Built with ❤️ without 🍪</p>
+        <div id="easter-egg" style="display: none;">
+        </div>
     </div>
 </div>
+
+<style>
+    #footer-line {
+        cursor: pointer;
+        user-select: none;
+    }
+
+    #tiresult b {
+        font-family: monospace;
+    }
+
+    #tiresult {
+        text-align: unset;
+        width: min-content;
+        white-space: collapse;
+    }
+
+    #easter-egg {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #easter-egg p {
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;
+        margin-top: 1rem;
+    }
+</style>
+
+<script>
+    let clickCount = 0;
+    const footerLine = document.getElementById("footer-line");
+    const easterEgg = document.getElementById("easter-egg");
+
+    footerLine.onclick = function() {
+        clickCount++;
+        if (clickCount == 3) {
+            footerLine.innerHTML = "🥚";
+            footerLine.style.fontSize = "2rem";
+        }
+
+        if (clickCount == 5) {
+            (async () => {
+                const response = await fetch("/assets/easter-egg.html");
+                let easterEggData = await response.text();
+
+                showEasterEgg = true;
+                // delete footerLine
+                footerLine.remove();
+
+                // remove the event listener
+                footerLine.onclick = null;
+
+                // create child from easterEggData
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(easterEggData, "text/html");
+                const child = doc.body.firstChild;
+
+                easterEgg.style.display = "flex";
+                easterEgg.style.marginTop = "2rem";
+                easterEgg.appendChild(child);
+
+                const easterEggText = document.createElement("p");
+                easterEggText.innerHTML = "Building easter eggs par excellence";
+                easterEgg.appendChild(easterEggText);
+            })();
+        }
+    }
+</script>
