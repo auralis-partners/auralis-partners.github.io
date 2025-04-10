@@ -6,6 +6,9 @@ description: >-
 baseurl: "/"
 url: "auralis.group"
 
+sass:
+  quiet_deps: true
+
 content:
   nav:
     - id: home
