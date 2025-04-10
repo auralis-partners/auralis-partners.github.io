@@ -31,12 +31,17 @@ data {
   width: max(10vw, 100px);
   height: max(10vw, 100px);
   border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 .profile-container {
   display: flex;
   flex-direction: row;
   gap: 2rem;
+}
+
+.profile-right {
+  align-content: space-evenly;
 }
 
 .profile-right > p {
