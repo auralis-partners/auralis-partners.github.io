@@ -1,10 +1,10 @@
 title: Auralis Group
 email: info@auralispartners.com
-description: >- 
-  Auralis Group
-  Building ventures par excellence
+description: We change the way software is built.
 baseurl: "/"
-url: "auralis.group"
+url: "https://auralis.group"
+meta_image: /assets/auralis_meta.png
+keywords: "auralis, auralis group, auralis partners, software development, software engineering, software architecture, software consulting, software solutions, consulting, venture studio, startup builder, teams as a service, tech recruiting, tech investment"
 
 sass:
   quiet_deps: true

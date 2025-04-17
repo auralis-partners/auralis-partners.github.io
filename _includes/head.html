@@ -6,7 +6,27 @@
     <title>{{ page.title }}</title>
 {% endif %}
 
-<meta name="description" content="{{ page.description }}">
+<!-- Primary Meta Tags -->
+<meta name="title" content="{{ site.title }}">
+<meta name="description" content="{{ site.description }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ site.url }}" />
+<meta property="og:title" content="{{ site.title }}" />
+<meta property="og:description" content="{{ site.description }}" />
+<meta property="og:image" content="{{ site.meta_image }}" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="{{ site.url }}" />
+<meta property="twitter:title" content="{{ site.title }}" />
+<meta property="twitter:description" content="{{ site.description }}" />
+<meta property="twitter:image" content="{{ site.meta_image }}" />
+
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="{{ site.keywords }}">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
