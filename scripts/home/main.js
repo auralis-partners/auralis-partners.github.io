@@ -16,7 +16,7 @@ let camera = new THREE.PerspectiveCamera(30, window.innerWidth / window.innerHei
 camera.position.z = 400;
 camera.position.y = 140;
 
-let object3d = await new OBJLoader().loadAsync('assets/obj/MountainTerrain.obj');
+let object3d = await new OBJLoader().loadAsync('assets/obj/MountainTerrain.txt');
 
 let geometry = object3d.children[0].geometry;
 geometry.deleteAttribute('normal');
