@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { OBJLoader } from 'three/addons/loaders/OBJLoader.js';
+import { OBJLoader } from 'three/addons/objloader';
 import { setupAttributes, onWindowResize, render } from './util.js';
 import { annotate } from 'rough-notation';
 
