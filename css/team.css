@@ -1,3 +1,8 @@
 .team .profile-container {
   margin-bottom: 3rem;
 }
+
+.team #content h1 {
+  width: min-content;
+  text-wrap: nowrap;
+}

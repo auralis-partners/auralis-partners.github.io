@@ -5,6 +5,8 @@ permalink: /team/
 container_class: team
 ---
 
+<script src="/scripts/team.js" type="module"></script>
+
 # Managing Directors
 
 ## Daniel Ratke
