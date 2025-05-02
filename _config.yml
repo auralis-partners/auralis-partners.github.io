@@ -17,6 +17,9 @@ content:
     - id: services
       name: Services
       link: /services/
+    - id: team
+      name: Meet the Team
+      link: /team/
     - id: about
       name: About Us
       link: /about-us/
@@ -26,9 +29,6 @@ content:
 #    - id: insights
 #      name: Insights
 #      link: /insights/
-    #- id: team
-    #  name: Meet the Team
-    #  link: /team/
     - id: careers
       name: Careers
       link: /careers/
@@ -99,6 +99,18 @@ content:
     - name: Scharbeutz
       lat: 54.0225
       lon: 10.7544
+    - name: Heilbronn
+      lat: 49.150002
+      lon: 9.210000
+    - name: Berlin-Umgebung
+      lat:  52.6530
+      lon:  13.0139
+    - name: Merklingen
+      lat: 48.5
+      lon: 9.8
+    - name: Egling
+      lat: 48.167943
+      lon: 10.952394
 
 theme: minima
 plugins:

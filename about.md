@@ -95,7 +95,7 @@ We work across a wide range of technologies—always choosing the best tool for 
 
 # 🌍 Distributed by Design
 
-With engineers in 9 cities, we’ve built Auralis from day one to be a remote-native company. This allows us to hire the best people, regardless of geography, and deliver high-quality results across time zones.
+With engineers in {{ site.content.cities | size }} cities, we’ve built Auralis from day one to be a remote-native company. This allows us to hire the best people, regardless of geography, and deliver high-quality results across time zones.
 
 We embrace asynchronous workflows, clear documentation, and a strong feedback culture—so great ideas win, no matter where they come from.
 

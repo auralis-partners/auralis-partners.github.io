@@ -14,7 +14,7 @@ Whether you're a software engineer, designer, product manager, or strategist, we
 
 # 🌍 Fully Remote, Always
 
-We're a remote-native team with people in 9+ cities. That means:
+We're a remote-native team with people in {{ site.content.cities | size }}+ cities. That means:
 
 - Work from anywhere  
 - Async-first culture  
