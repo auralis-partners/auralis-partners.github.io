@@ -7,6 +7,10 @@ container_class: team
 
 <script src="/scripts/team.js" type="module"></script>
 
+Meet the talented individuals driving Auralis forward — a diverse group of engineers, visionaries, and operations pros, united by a passion for building great technology and lasting impact. Whether they’re writing code 💻, solving complex challenges 🧠, collaborating across disciplines 🤝, or keeping everything running smoothly ⚙️, this team brings dedication and creativity to everything they do.
+
+---
+
 # Managing Directors
 
 ## Daniel Ratke

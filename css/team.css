@@ -3,6 +3,5 @@
 }
 
 .team #content h1 {
-  width: min-content;
-  text-wrap: nowrap;
+  width: fit-content;
 }
