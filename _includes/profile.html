@@ -24,6 +24,13 @@
           <p>GitHub</p>
         </a>
       {% endif %}
+
+      {% if include.gitlab %}
+        <a href="{{ include.gitlab }}" class="gitlab" target="_blank">
+          <iconify-icon icon="logos:gitlab"></iconify-icon>
+          <p>Gitlab</p>
+        </a>
+      {% endif %}
   
       {% if include.website %}
         <a href="{{ include.website }}" class="website" target="_blank">

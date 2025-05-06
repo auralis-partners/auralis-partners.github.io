@@ -135,3 +135,14 @@ Meet the talented individuals driving Auralis forward — a diverse group of eng
   github="https://github.com/christianemmert"
   linkedin="https://www.linkedin.com/in/christianemmert"
 %}
+
+## Nasko Atanasov
+
+{% include profile.html
+  image="/assets/profile_pictures/associate_partners/nasko_atanasov.jpg"
+  alt="Nasko Atanasov"
+  description="Nasko is our jack‑of‑all‑trades 🃏. With expertise in many technical domains ⚙️ and outstanding soft skills 🧑, he’s the perfect synergy between engineering and communication. Whether he’s working 💻, dancing 🕺, or engaging in philosophy 💭, he brings unique value to every endeavour."
+  email="atanasov@auralispartners.com"
+  gitlab="https://gitlab.com/Lajahom"
+  linkedin="https://www.linkedin.com/in/atanas-atanasov-software-engineer/"
+%}
