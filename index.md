@@ -12,7 +12,7 @@ At Auralis Partners, we believe that building the future means acting fast, thin
 
 {% include logos.html %}
 
-# 📦 Open Source champions
+<!--# 📦 Open Source champions
 
 We believe the best technology is built in the open. As proud **CNCF Silver Members** and **Linux Foundation Members**, we're deeply committed to the open-source ecosystem—not just as users, but as contributors and maintainers. From internal tooling to public infrastructure, we build with transparency, collaboration, and longevity in mind, supporting the communities that make innovation possible.
 
@@ -20,7 +20,7 @@ We believe the best technology is built in the open. As proud **CNCF Silver Memb
   <img src="https://github.com/cncf/artwork/raw/main/other/cncf-member/silver/color/cncf-member-silver-color.svg" alt="CNCF Silver Member">
 
   <img src="https://www.treasuredata.com/wp-content/uploads/2024/07/lf_mem_logo_silver.png" alt="Linux Foundation Member">
-</div>
+</div-->
 
 # 💡 Building Ventures Par Excellence
 
