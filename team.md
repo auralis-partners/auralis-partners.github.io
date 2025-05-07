@@ -136,7 +136,7 @@ Meet the talented individuals driving Auralis forward — a diverse group of eng
   linkedin="https://www.linkedin.com/in/christianemmert"
 %}
 
-## Nasko Atanasov
+<!--## Nasko Atanasov
 
 {% include profile.html
   image="/assets/profile_pictures/associate_partners/nasko_atanasov.jpg"
@@ -145,4 +145,4 @@ Meet the talented individuals driving Auralis forward — a diverse group of eng
   email="atanasov@auralispartners.com"
   gitlab="https://gitlab.com/Lajahom"
   linkedin="https://www.linkedin.com/in/atanas-atanasov-software-engineer/"
-%}
+%}-->
