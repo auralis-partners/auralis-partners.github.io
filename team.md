@@ -21,7 +21,7 @@ Meet the talented individuals driving Auralis forward — a diverse group of eng
   description="Daniel is our technology high wizard 🧙‍♂️. A true mage on the keyboard and innovator par-excellence. He is a seasoned entrepreneur 👔 and investor 💸 with a passion for building innovative products and companies, holds an M.Sc. in Computer Science from LMU Munich 🧪, and has published papers in reinforcement learning and quantum computing. He writes about technical topics in quantum computing and startups 📝."
   email="ratke@auralispartners.com"
   github="https://github.com/instance01"
-  linkedin="https://www.linkedin.com/in/danielratke/"
+  linkedin="https://www.linkedin.com/in/daniel-ratke/"
   website="https://blog.xa0.de/"
 %}
 
@@ -48,6 +48,8 @@ Meet the talented individuals driving Auralis forward — a diverse group of eng
 %}
 
 # Sales & Operations
+
+## Christian Borza
 
 {% include profile.html
   image="/assets/profile_pictures/sales/christian_borza.jpg"
