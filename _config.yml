@@ -32,76 +32,70 @@ content:
     - id: careers
       name: Careers
       link: /careers/
-  
+
   logos:
     - src: /assets/logos/uniper_logo.png
       name: Uniper
-    - src: /assets/logos/atlas_elektronik.png 
+    - src: /assets/logos/atlas_elektronik.png
       name: Atlas Elektronik
-    - src: /assets/logos/axiros_logo.png 
+    - src: /assets/logos/axiros_logo.png
       name: Axiros
     - src: /assets/logos/bg_phoenics_logo.jpeg
       name: BG Phoenics
-    - src: /assets/logos/bilfinger_logo.jpeg 
+    - src: /assets/logos/bilfinger_logo.jpeg
       name: Bilfinger
-    - src: /assets/logos/btv.png 
+    - src: /assets/logos/btv.png
       name: BTV
     - src: /assets/logos/bundesagentur_fuer_arbeit_logo.png
-      name: Bundesagentur für Arbeit 
-    - src: /assets/logos/cariad_logo.png 
+      name: Bundesagentur für Arbeit
+    - src: /assets/logos/cariad_logo.png
       name: Cariad
-    - src: /assets/logos/Deutsche_Bahn.png 
+    - src: /assets/logos/Deutsche_Bahn.png
       name: Deutsche Bahn
-    - src: /assets/logos/fratch_logo.png 
+    - src: /assets/logos/fratch_logo.png
       name: Fratch
     - src: /assets/logos/hitachi_logo.svg
       name: Hitachi
     - src: /assets/logos/jysk_logo.jpg
       name: Jysk
-    - src: /assets/logos/koerber_logo.png 
+    - src: /assets/logos/koerber_logo.png
       name: Körber
     - src: /assets/logos/miele_logo.png
       name: Miele
-    - src: /assets/logos/nunatak.png 
+    - src: /assets/logos/nunatak.png
       name: Nunatak
-    - src: /assets/logos/rheinmetall_logo.png 
+    - src: /assets/logos/rheinmetall_logo.png
       name: Rheinmetall
-    - src: /assets/logos/swarco_logo.png 
+    - src: /assets/logos/swarco_logo.png
       name: Swarco
     - src: /assets/logos/Thales_Logo.svg
       name: Thales
 
   cities:
     - name: Berlin
-      lat: 52.5200
-      lon: 13.4050
-    - name: Munich
-      lat: 48.1351
-      lon: 11.5820
+      lat: 52.51875
+      lon: 13.39465
+    - name: München
+      lat: 48.1422
+      lon: 11.5755
     - name: Karlsruhe
-      lat: 49.0069
-      lon: 8.4037
-    - name: Bedburg
-      lat: 51.0018
-      lon: 6.5627
-    - name: Leutenbach
-      lat: 48.8881
-      lon: 9.3905
+      lat: 49.01015
+      lon: 8.40145
     - name: Eppingen
-      lat: 49.1380
-      lon: 8.9092
+      lat: 49.136992
+      lon: 8.909553
     - name: Würzburg
-      lat: 49.7913
-      lon: 9.9534
+      lat: 49.794497
+      lon: 9.929337
     - name: Saarlouis
-      lat: 49.3124
-      lon: 6.7507
+      lat: 49.315631
+      lon: 6.750444
     - name: Scharbeutz
-      lat: 54.0225
-      lon: 10.7544
+      lat: 54.02903
+      lon: 10.75716
     - name: Heilbronn
-      lat: 49.150002
-      lon: 9.210000
+      lat: 49.14542
+      lon: 9.22010
     - name: Berlin-Umgebung
       lat:  52.6530
       lon:  13.0139
@@ -109,8 +103,68 @@ content:
       lat: 48.5
       lon: 9.8
     - name: Egling
-      lat: 48.167943
-      lon: 10.952394
+      lat: 48.19194
+      lon: 10.97732
+    - name: Aachen
+      lat: 50.77788
+      lon: 6.08316
+    - name: Darmstadt-Dieburg
+      lat: 49.89892
+      lon: 8.83893
+    - name: Leipzig
+      lat: 51.34085
+      lon: 12.37462
+    - name: Burglauer
+      lat: 50.3245
+      lon: 10.0782
+    - name: Thierhaupten
+      lat: 48.56592
+      lon: 10.91054
+    - name: Geislingen
+      lat: 48.62483
+      lon: 9.83826
+    - name: Kaiserslautern
+      lat: 49.44556
+      lon: 7.76957
+    - name: Oberickelsheim
+      lat: 49.601670
+      lon: 10.136336
+    - name: Köln
+      lat: 50.9419
+      lon: 6.9626
+    - name: Bremen
+      lat: 53.0860
+      lon: 8.8152
+    - name: Ludwigshafen
+      lat: 49.47060
+      lon: 8.43797
+    - name: Schönwalde-Glien
+      lat: 52.64095
+      lon: 13.05038
+    - name: Mannheim
+      lat: 49.489381
+      lon: 8.467342
+    - name: Fürth
+      lat: 49.47771
+      lon: 10.98918
+    - name: Neuwied
+      lat: 50.43287
+      lon: 7.46761
+    - name: Prittriching
+      lat: 48.2063
+      lon: 10.9286
+    - name: Buchholz an der Nordheide
+      lat: 53.327576
+      lon: 9.878415
+    - name: Fürstenwalde
+      lat: 52.367292
+      lon: 14.058477
+    - name: Prisdorf
+      lat: 53.683352
+      lon: 9.750007
+    - name: Waldkirchen
+      lat: 48.73239
+      lon: 13.60022
 
 theme: minima
 plugins:
