@@ -5,7 +5,7 @@ permalink: /imprint/
 ---
 
 # Auralis Group GmbH
-Münchner Str. 25, 85229 Markt Indersdorf · HRB 296015, Amtsgericht München
+Nördliche Münchner Str. 27a, 82031 Grünwald · HRB 296015, Amtsgericht München
 
 [info@auralispartners.com](mailto:info@auralispartners.com)
 
