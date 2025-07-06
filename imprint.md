@@ -5,7 +5,7 @@ permalink: /imprint/
 ---
 
 # Auralis Group GmbH
-Nördliche Münchner Str. 27a, 82031 Grünwald · HRB 296015, Amtsgericht München
+Nördliche Münchner Str. 27a, 82031 Grünwald · HRB 296015, Amtsgericht München · UmSt-ID: DE370527759
 
 [info@auralispartners.com](mailto:info@auralispartners.com)
 
@@ -18,7 +18,7 @@ Nördliche Münchner Str. 27a, 82031 Grünwald · HRB 296015, Amtsgericht Münch
 {% include profile.html 
   image="/assets/profile_pictures/managing_partners/daniel.jpg" 
   alt="Daniel Ratke" 
-  description="Daniel is our technology high wizard 🧙‍♂️. A true mage on the keyboard and innovator par-excellence. He is a seasoned entrepreneur 👔 and investor 💸 with a passion for building innovative products and companies, holds an M.Sc. in Computer Science from LMU Munich 🧪, and has published papers in reinforcement learning and quantum computing. He writes about technical topics in quantum computing and startups 📝."
+  description="Daniel is our technology high wizard 🧙♂️. A true mage on the keyboard and innovator par-excellence. He is a seasoned entrepreneur 👔 and investor 💸 with a passion for building innovative products and companies, holds an M.Sc. in Computer Science from LMU Munich 🧪, and has published papers in reinforcement learning and quantum computing. He writes about technical topics in quantum computing and startups 📝."
   email="ratke@auralispartners.com"
   github="https://github.com/instance01"
   linkedin="https://www.linkedin.com/in/daniel-ratke/"
