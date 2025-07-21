@@ -129,6 +129,16 @@ Meet the talented individuals driving Auralis forward — a diverse group of eng
   linkedin="https://www.linkedin.com/in/christianemmert"
 %}
 
+## Carsten Andresen
+
+{% include profile.html
+  image="/assets/profile_pictures/associate_partners/carsten_andresen.jpeg"
+  alt="Carsten Andresen"
+  description="Carsten draws on more than a decade architecting high-traffic web and analytics systems with Node.js, React and PostgreSQL. Before joining Auralis he shipped large-scale browser-based products and SaaS features, balancing clean domain models with performance tuning in Spring and TypeScript. Here he focuses on backend excellence, evolving event-driven platforms and sharing best practices across teams."
+  email="carsten.andresen@auralispartner.com"
+  linkedin="https://www.linkedin.com/in/carsten-andresen-aa48a1329/"
+%}
+
 <!--## Nasko Atanasov
 
 {% include profile.html
