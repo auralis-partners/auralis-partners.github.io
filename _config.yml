@@ -32,6 +32,9 @@ content:
     - id: careers
       name: Careers
       link: /careers/
+    - id: blog
+      name: Blog
+      link: /blog/
 
   logos:
     - src: /assets/logos/uniper_logo.png
