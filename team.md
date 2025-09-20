@@ -11,7 +11,7 @@ Meet the talented individuals driving Auralis forward — a diverse group of eng
 
 ---
 
-# Managing Directors
+# Managing Partners
 
 ## Daniel Ratke
 
