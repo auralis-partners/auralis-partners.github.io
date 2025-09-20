@@ -11,7 +11,7 @@ Nördliche Münchner Str. 27a, 82031 Grünwald · HRB 296015, Amtsgericht Münch
 
 {% include single-location.html lat="48.321625" lon="11.387144" %}
 
-# Managing Directors
+# Managing Partners
 
 ## Daniel Ratke
 
