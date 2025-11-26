@@ -18,8 +18,8 @@
 #content-header > h1 {
   font-size: var(--content-header-font-size);
   margin-top: 2vh;
-  width: min-content;
-  white-space: nowrap;
+  width: 100%;
+  white-space: normal;
 }
 
 @media (max-width: 961px) {

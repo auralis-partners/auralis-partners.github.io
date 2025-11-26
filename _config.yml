@@ -1,175 +1,255 @@
 title: Auralis Group
 email: info@auralispartners.com
 description: We change the way software is built.
-baseurl: "/"
-url: "https://auralis.group"
+baseurl: /
+url: https://auralis.group
 meta_image: /assets/auralis_meta.png
-keywords: "auralis, auralis group, auralis partners, software development, software engineering, software architecture, software consulting, software solutions, consulting, venture studio, startup builder, teams as a service, tech recruiting, tech investment"
-
+keywords: auralis, auralis group, auralis partners, software development, software engineering, software architecture, software consulting, software solutions, consulting, venture studio, startup builder, teams as a service, tech recruiting, tech investment
 sass:
   quiet_deps: true
-
 content:
   nav:
-    - id: home
-      name: Home
-      link: /
-    - id: services
-      name: Services
-      link: /services/
-    - id: team
-      name: Meet the Team
-      link: /team/
-    - id: about
-      name: About Us
-      link: /about-us/
-#    - id: success-stories
-#      name: Success Stories
-#      link: /success-stories/
-#    - id: insights
-#      name: Insights
-#      link: /insights/
-    - id: careers
-      name: Careers
-      link: /careers/
-    - id: blog
-      name: Blog
-      link: /blog/
-
+  - id: home
+    name: Home
+    link: /
+  - id: services
+    name: Services
+    link: /services/
+  - id: team
+    name: Meet the Team
+    link: /team/
+  - id: about
+    name: About Us
+    link: /about-us/
+  - id: careers
+    name: Careers
+    link: /careers/
+  - id: case-studies
+    name: Case Studies
+    link: /case-studies/
+  - id: blog
+    name: Blog
+    link: /blog/
   logos:
-    - src: /assets/logos/uniper_logo.png
-      name: Uniper
-    - src: /assets/logos/atlas_elektronik.png 
-      name: Atlas Elektronik
-    - src: /assets/logos/axiros_logo.png 
-      name: Axiros
-    - src: /assets/logos/bg_phoenics_logo.jpeg
-      name: BG Phoenics
-    - src: /assets/logos/bilfinger_logo.jpeg 
-      name: Bilfinger
-    - src: /assets/logos/btv.png 
-      name: BTV
-    - src: /assets/logos/bundesagentur_fuer_arbeit_logo.png
-      name: Bundesagentur für Arbeit 
-    - src: /assets/logos/cariad_logo.png 
-      name: Cariad
-    - src: /assets/logos/Deutsche_Bahn.png 
-      name: Deutsche Bahn
-    - src: /assets/logos/fratch_logo.png 
-      name: Fratch
-    - src: /assets/logos/hitachi_logo.svg
-      name: Hitachi
-    - src: /assets/logos/jysk_logo.jpg
-      name: Jysk
-    - src: /assets/logos/koerber_logo.png 
-      name: Körber
-    - src: /assets/logos/miele_logo.png
-      name: Miele
-    - src: /assets/logos/nunatak.png 
-      name: Nunatak
-    - src: /assets/logos/rheinmetall_logo.png 
-      name: Rheinmetall
-    - src: /assets/logos/swarco_logo.png 
-      name: Swarco
-    - src: /assets/logos/Thales_Logo.svg
-      name: Thales
-
+  - src: /assets/logos/advastore_logo.png
+    name: advastore
+  - src: /assets/logos/atlas_elektronik.png
+    name: Atlas Elektronik
+  - src: /assets/logos/axiros_logo.png
+    name: Axiros
+  - src: /assets/logos/bestsecret_logo.png
+    name: BESTSECRET
+  - src: /assets/logos/bg_phoenics_logo.jpeg
+    name: BG Phoenics
+  - src: /assets/logos/bilfinger_logo.jpeg
+    name: Bilfinger
+  - src: /assets/logos/btv.png
+    name: BTV
+  - src: /assets/logos/bundesagentur_fuer_arbeit_logo.png
+    name: Bundesagentur für Arbeit
+  - src: /assets/logos/bwi_logo.png
+    name: BWI IT für Deutschland
+  - src: /assets/logos/cariad_logo.png
+    name: Cariad
+  - src: /assets/logos/Deutsche_Bahn.png
+    name: Deutsche Bahn
+  - src: /assets/logos/deutsche_telekom_logo.png
+    name: Deutsche Telekom
+  - src: /assets/logos/deutz_logo.png
+    name: Deutz
+  - src: /assets/logos/eon_logo.png
+    name: e.on
+  - src: /assets/logos/envia_logo.png
+    name: envia M
+  - src: /assets/logos/fratch_logo.png
+    name: Fratch
+  - src: /assets/logos/geberit_logo.png
+    name: Geberit
+  - src: /assets/logos/hitachi_logo.svg
+    name: Hitachi
+  - src: /assets/logos/infineon_logo.svg
+    name: Infineon
+  - src: /assets/logos/jysk_logo.jpg
+    name: Jysk
+  - src: /assets/logos/kion_group_logo.png
+    name: KION Group
+  - src: /assets/logos/koerber_logo.png
+    name: Körber
+  - src: /assets/logos/landesapothekerkammer_bw_logo.png
+    name: Landesapothekerkammer Baden-Württemberg
+  - src: /assets/logos/miele_logo.png
+    name: Miele
+  - src: /assets/logos/ntt_logo.png
+    name: NTT
+  - src: /assets/logos/nunatak.png
+    name: Nunatak
+  - src: /assets/logos/promantis_logo.png
+    name: promantis
+  - src: /assets/logos/rewe_logo.png
+    name: REWE
+  - src: /assets/logos/rheinmetall_logo.png
+    name: Rheinmetall
+  - src: /assets/logos/swarco_logo.png
+    name: Swarco
+  - src: /assets/logos/Thales_Logo.svg
+    name: Thales
+  - src: /assets/logos/trianel_logo.svg
+    name: Trianel
+  - src: /assets/logos/uniper_logo.png
+    name: Uniper
+  - src: /assets/logos/vhv_versicherungen_logo.svg
+    name: VHV Versicherungen
+  - src: /assets/logos/volkswagen_logo.png
+    name: Volkswagen
+  - src: /assets/logos/vonovia_logo.png
+    name: Vonovia
+  - src: /assets/logos/vorwerk_logo.png
+    name: Vorwerk
+  - src: /assets/logos/westenergie_logo.png
+    name: westenergie
   cities:
-    - name: Berlin
-      lat: 52.5200
-      lon: 13.4050
-    - name: Munich
-      lat: 48.1351
-      lon: 11.5820
-    - name: Karlsruhe
-      lat: 49.0069
-      lon: 8.4037
-    - name: Eppingen
-      lat: 49.1380
-      lon: 8.9092
-    - name: Würzburg
-      lat: 49.7913
-      lon: 9.9534
-    - name: Saarlouis
-      lat: 49.3124
-      lon: 6.7507
-    - name: Scharbeutz
-      lat: 54.0225
-      lon: 10.7544
-    - name: Heilbronn
-      lat: 49.150002
-      lon: 9.210000
-    - name: Berlin-Umgebung
-      lat:  52.6530
-      lon:  13.0139
-    - name: Merklingen
-      lat: 48.5
-      lon: 9.8
-    - name: Egling
-      lat: 48.167943
-      lon: 10.952394
-    - name: Aachen
-      lat: 50.77664
-      lon: 6.08342
-    - name: Darmstadt-Dieburg
-      lat: 49.92000
-      lon: 8.83000
-    - name: Leipzig
-      lat: 51.340199
-      lon: 12.360103
-    - name: Burglauer
-      lat: 50.26700
-      lon: 10.18300
-    - name: Thierhaupten
-      lat: 48.56700
-      lon: 10.91700
-    - name: Geislingen
-      lat: 48.62423
-      lon: 9.82736
-    - name: Kaiserslautern
-      lat: 49.44300
-      lon: 7.77161
-    - name: Oberickelsheim
-      lat: 49.60000
-      lon: 10.13300
-    - name: Köln
-      lat: 50.93333
-      lon: 6.95000
-    - name: Bremen
-      lat: 53.07582
-      lon: 8.80717
-    - name: Ludwigshafen
-      lat: 49.48121
-      lon: 8.44641
-    - name: Schönwalde-Glien
-      lat: 52.638077
-      lon: 13.046343
-    - name: Mannheim
-      lat: 49.48910
-      lon: 8.46694
-    - name: Fürth
-      lat: 49.466667
-      lon: 11.000000
-    - name: Neuwied
-      lat: 50.436187
-      lon: 7.466455
-    - name: Prittriching
-      lat: 48.20074
-      lon: 10.92801
-    - name: Buchholz an der Nordheide
-      lat: 53.32640
-      lon: 9.86810
-    - name: Fürstenwalde
-      lat: 52.368018
-      lon: 14.059473
-    - name: Prisdorf
-      lat: 53.674861
-      lon: 9.764724
-    - name: Waldkirchen
-      lat: 48.729155
-      lon: 13.600959
-
+  - name: Aachen
+    lat: 50.77112
+    lon: 6.11293
+  - name: Altenbeken-Schwaney
+    lat: 51.71348
+    lon: 8.93222
+  - name: Bad Urach
+    lat: 48.46919
+    lon: 9.44867
+  - name: Baesweiler
+    lat: 50.91568
+    lon: 6.19337
+  - name: Berlin
+    lat: 52.50212
+    lon: 13.4345
+  - name: Bielefeld
+    lat: 52.02137
+    lon: 8.5968
+  - name: Bocholt
+    lat: 51.83656
+    lon: 6.60364
+  - name: Bochum
+    lat: 51.48661
+    lon: 7.14023
+  - name: Burglauer
+    lat: 50.27467
+    lon: 10.18239
+  - name: Cadolzburg
+    lat: 49.4415
+    lon: 10.85877
+  - name: Darmstadt-Dieburg
+    lat: 49.90001
+    lon: 8.85507
+  - name: Dippoldiswalde
+    lat: 50.89658
+    lon: 13.67028
+  - name: Dümpelfeld
+    lat: 50.428
+    lon: 6.93155
+  - name: Düsseldorf
+    lat: 51.2721
+    lon: 6.8257
+  - name: Erbach
+    lat: 48.32833
+    lon: 9.88489
+  - name: Essen
+    lat: 51.42209
+    lon: 6.95276
+  - name: Freiburg im Breisgau
+    lat: 47.95689
+    lon: 7.86302
+  - name: Fulda
+    lat: 50.55266
+    lon: 9.67406
+  - name: Furth
+    lat: 49.31421
+    lon: 12.7673
+  - name: Garching
+    lat: 48.25495
+    lon: 11.65775
+  - name: Geislingen
+    lat: 48.63044
+    lon: 9.8393
+  - name: Hamburg
+    lat: 53.60569
+    lon: 10.08834
+  - name: Hanau
+    lat: 50.1188
+    lon: 8.89394
+  - name: Hürth
+    lat: 50.86581
+    lon: 6.87907
+  - name: Karlsruhe
+    lat: 48.99314
+    lon: 8.44137
+  - name: Kaufungen
+    lat: 51.28286
+    lon: 9.61394
+  - name: Köln
+    lat: 51.03392
+    lon: 6.8854
+  - name: Leipzig
+    lat: 51.32784
+    lon: 12.38894
+  - name: Ludwigshafen
+    lat: 49.4434
+    lon: 8.42551
+  - name: Mannheim
+    lat: 49.54768
+    lon: 8.45016
+  - name: München
+    lat: 48.14282
+    lon: 11.55819
+  - name: Münster
+    lat: 51.90562
+    lon: 7.64331
+  - name: Neuwied
+    lat: 50.45164
+    lon: 7.41702
+  - name: Niedersachsen
+    lat: 52.54422
+    lon: 10.84507
+  - name: Oberickelsheim
+    lat: 49.60298
+    lon: 10.10994
+  - name: Panketal
+    lat: 52.62512
+    lon: 13.54388
+  - name: Prittriching
+    lat: 48.171
+    lon: 10.92129
+  - name: Saarlouis
+    lat: 49.3124
+    lon: 6.7507
+  - name: Schleswig-Holstein
+    lat: 53.68493
+    lon: 9.77502
+  - name: Schönwalde-Glien
+    lat: 52.65356
+    lon: 13.01318
+  - name: Stuttgart
+    lat: 48.8088
+    lon: 9.21844
+  - name: Thüringen
+    lat: 50.83709
+    lon: 10.93645
+  - name: Tübingen
+    lat: 48.52857
+    lon: 9.05007
+  - name: Vörstetten
+    lat: 48.06475
+    lon: 7.85298
+  - name: Waldkirchen
+    lat: 48.73427
+    lon: 13.59724
+  - name: Weingarten
+    lat: 49.05296
+    lon: 8.52237
+  - name: Würzburg
+    lat: 49.77832
+    lon: 9.93745
 theme: minima
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+- jekyll-feed
+- jekyll-sitemap
