@@ -11,7 +11,7 @@ Your privacy matters to us. This policy explains what kind of data we (Auralis P
 
 ---
 
-# 🔍 What We Collect
+# What We Collect
 
 We do **not** use cookies, trackers, or third-party analytics tools.
 
@@ -25,13 +25,13 @@ This data is **fully anonymized** and cannot be traced back to any individual us
 
 ---
 
-# 🍪 Cookies
+# Cookies
 
 We do **not** use any cookies—no session cookies, no tracking cookies, no marketing cookies. Nothing.
 
 ---
 
-# 🛠️ Data We Don’t Collect
+# Data We Don’t Collect
 
 We do **not**:
 
@@ -42,7 +42,7 @@ We do **not**:
 
 ---
 
-# 📩 Contact
+# Contact
 
 If you have any questions or concerns about this privacy policy, feel free to reach out:
 
