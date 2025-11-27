@@ -107,6 +107,7 @@ content:
     name: Vorwerk
   - src: /assets/logos/westenergie_logo.png
     name: westenergie
+  # Add new cities via: https://www.openstreetmap.org/#map=13, search for city name, right click `show address`. Use the lat/lon from the city center
   cities:
   - name: Aachen
     lat: 50.77788
